@@ -79,7 +79,7 @@ flowchart LR
     B --> C[Leer matrices]
     C --> D{Validar dimensiones}
     D -- No --> E(Error: Dimensiones incompatibles)
-    D -- Sí --> F{Multiplicar matrices}
+    D -- Sí --> F[Multiplicar matrices]
     F --> G[Imprimir resultado]
     G --> H(Fin)
     E --> H
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
 ```mermaid
 flowchart LR
-    A(Inicio) --> B{Leer dimensiones}
+    A(Inicio) --> B[Leer dimensiones]
     B --> C[Leer matriz]
     C --> D[Transponer matriz]
     D --> E[Imprimir matriz transpuesta]
@@ -300,7 +300,7 @@ flowchart LR
     D --> E[Solicitar índice de fila]
     E --> F{Validar índice}
     F -- No --> E
-    F -- Sí --> G{Sumar fila}
+    F -- Sí --> G[Sumar fila]
     G --> H[Imprimir suma]
     H --> I(Fin)
 
