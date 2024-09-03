@@ -19,7 +19,7 @@ flowchart LR
 ```
 
 ###### This is the code: 
-`
+
     def leer_matriz(filas, columnas):
         """Lee una matriz de dimensiones filas x columnas desde la entrada estándar.
     
@@ -67,4 +67,3 @@ flowchart LR
     
     if __name__ == "__main__":
         main()
-`
