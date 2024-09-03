@@ -8,7 +8,7 @@
 
 ```mermaid
 flowchart LR
-    A(Inicio) --> B{Leer dimensiones}
+    A(Inicio) --> B[Leer dimensiones]
     B --> C[Leer matrices]
     C --> D{Matrices mismas dimensiones?}
     D -- Sí --> E[Sumar matrices]
