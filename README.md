@@ -6,6 +6,7 @@
 ### 1st -> Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación
 ######  So, I first think what I'm gonna do making a flow chart in mermaid
 
+```mermaid
 flowchart LR
     A(Inicio) --> B{Leer dimensiones}
     B --> C{Leer matrices}
@@ -15,7 +16,7 @@ flowchart LR
     E --> G(Imprimir resultado)
     G --> H(Fin)
     F --> H
-
+```
 
 ######This is the code: 
     def leer_matriz(filas, columnas):
