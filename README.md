@@ -9,9 +9,9 @@
 ```mermaid
 flowchart LR
     A(Inicio) --> B{Leer dimensiones}
-    B --> C{Leer matrices}
-    C --> D[Matrices mismas dimensiones?]
-    D -- Sí --> E{Sumar matrices}
+    B --> C[Leer matrices]
+    C --> D{Matrices mismas dimensiones?}
+    D -- Sí --> E[Sumar matrices]
     D -- No --> F(Error: Dimensiones diferentes)
     E --> G(Imprimir resultado)
     G --> H(Fin)
