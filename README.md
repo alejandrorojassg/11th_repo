@@ -312,13 +312,11 @@ def leer_matriz(filas, columnas):
     """
     Lee una matriz del usuario, validando que cada fila tenga el número correcto de columnas.
     """
-    # ... (código ya proporcionado)
 
 def imprimir_matriz(matriz):
     """
     Imprime una matriz de manera legible.
     """
-    # ... (código ya proporcionado)
 
 def sumar_fila(matriz, fila_index):
     """
@@ -333,8 +331,7 @@ def sumar_fila(matriz, fila_index):
 
 def main():
     print("Suma de elementos de una fila de una matriz")
-    
-    # ... (código ya proporcionado)
+
 
 if __name__ == "__main__":
     main()
