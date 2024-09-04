@@ -30,7 +30,6 @@ def leer_matriz(filas, columnas):
     Returns:
         list: La matriz leída, o None si se produjo un error.
     """
-    # ... (código original)
 
 def validar_dimensiones(matriz1, matriz2):
     """Valida que dos matrices tengan las mismas dimensiones.
@@ -49,7 +48,6 @@ def mostrar_menu():
     print("Operaciones con matrices")
     print("1. Sumar matrices")
     print("2. Restar matrices")
-    # ... (agregar más opciones)
     return int(input("Seleccione una opción: "))
 
 def main():
@@ -58,10 +56,7 @@ def main():
         opcion = mostrar_menu()
 
         if opcion == 1:
-            # ... (código para sumar matrices)
         elif opcion == 2:
-            # ... (código para restar matrices)
-        # ... (agregar más casos para otras opciones)
         else:
             print("Opción inválida.")
 
@@ -113,10 +108,8 @@ def producto_escalar(fila1, columna2):
     return sum(x * y for x, y in zip(fila1, columna2))
 
 def multiplicar_matrices(matriz1, matriz2):
-    # ... (código original con las modificaciones)
 
 def main():
-    # ... (código original)
 
 if __name__ == "__main__":
     main()
@@ -186,10 +179,10 @@ def main():
     print("Ingrese la matriz:")
     matriz = leer_matriz(filas, columnas)
 
-    print("\nMatriz ingresada:")
+    print(\n"Matriz ingresada:")
     imprimir_matriz(matriz)
 
-    print("\nMatriz transpuesta:")
+    print(\n"Matriz transpuesta:")
     matriz_transpuesta = transponer_matriz(matriz)
     imprimir_matriz(matriz_transpuesta)
 
